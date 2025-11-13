@@ -11,6 +11,7 @@ from omegaconf import OmegaConf, DictConfig
 from DrissionPage import ChromiumOptions, Chromium
 
 # 设置控制台输出编码为UTF-8，避免中文字符编码问题
+# 设置控制台输出编码为UTF-8，避免中文字符编码问题
 if sys.stdout.encoding != 'utf-8':
     try:
         sys.stdout.reconfigure(encoding='utf-8')
